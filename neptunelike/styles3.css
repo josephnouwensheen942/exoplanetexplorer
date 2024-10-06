@@ -1,0 +1,107 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0b0e17;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#header {
+    background: url() no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#header h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #30a66d;
+}
+#header p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#header .btn {
+    background: #87CEEB;
+    color: black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#header .btn:hover {
+    background: #ff9900;
+    color: white;
+}
+/* Notable Planets Section */
+#notable {
+    padding: 3rem 1rem;
+    background: url(https://wallpaperaccess.com/full/1661656.jpg) no-repeat center center/cover;;
+}
+#notable .container h2{
+    font-size: 1.8rem;
+}
+#notable .container p{
+    font-size: 1.4rem;
+}
+#notable .container p li{
+    font-size: 1.5rem;
+}
+#notable .notable-planet-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.notable-planet {
+    background-color: #afcff0;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+.notable-planet h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0e87f0;
+}
+.notable-planet:hover {
+    transform: scale(1.1);
+}
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #307ba6; /* A blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #4682b4; /* Darker blue on hover */
+}
+ .back-button {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-top: 8px;
+        background-color: #1e90ff;
+        color: white;
+        text-decoration: none;
+        border-radius: 2px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .back-button:hover {
+        background-color: #4682b4;
+    }
